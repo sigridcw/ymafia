@@ -9,6 +9,11 @@ sections:
   label: Images
   create: all
   match: assets/images
+- type: directory
+  path: exampleSite
+  label: Images
+  create: all
+  match: assets/images
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
